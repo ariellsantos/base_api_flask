@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "api-flask"
+version = "0.0.1"
+description = "Project API FLASK"
+authors = ["Ariel Santos"]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask="^2.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

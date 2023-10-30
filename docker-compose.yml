@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  api_python:
+    build: 
+      dockerfile: "./docker_envs/Dockerfile"
+      context: .
+    ports: 
+      - 5000:8000
+    volumes:
+      - .:/app
